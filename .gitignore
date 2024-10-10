@@ -22,3 +22,36 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+# Archivos de configuración locales de la IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+/.vscode/
+
+# Maven directories
+target/
+!src/main/resources/
+!src/test/resources/
+
+# Configuraciones específicas de OS o editor
+.DS_Store
+*.swp
+*~
+
+# Archivos temporales del sistema operativo
+Thumbs.db
+*.tmp
+
+# Archivos relacionados con el control de versiones de tu IDE
+*.orig
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+!/.mvn/wrapper/maven-wrapper.properties
+
+# Otros archivos potenciales
+dependency-reduced-pom.xml
+release.properties
