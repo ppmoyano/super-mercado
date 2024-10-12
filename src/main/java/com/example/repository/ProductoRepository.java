@@ -29,7 +29,7 @@ public class ProductoRepository {
         productos.add(new Producto(16L, "Té", 3.0));
         productos.add(new Producto(17L, "Azúcar", 1.5));
         productos.add(new Producto(18L, "Sal", 0.5));
-        productos.add(new Producto(19L, "Aceite de oliva", 6.0));
+        productos.add(new Producto(19L, "Fideos", 2.0));
         productos.add(new Producto(20L, "Vinagre", 2.5));
         productos.add(new Producto(21L, "Cereal", 3.5));
         productos.add(new Producto(22L, "Harina", 1.2));
@@ -40,7 +40,7 @@ public class ProductoRepository {
         productos.add(new Producto(27L, "Agua mineral", 1.0));
         productos.add(new Producto(28L, "Yogur", 2.2));
         productos.add(new Producto(29L, "Helado", 4.0));
-        productos.add(new Producto(30L, "Mantequilla", 1.8));
+        productos.add(new Producto(30L, "Salsa Lista", 2.0));
         productos.add(new Producto(31L, "Mermelada", 2.3));
         productos.add(new Producto(32L, "Atún en lata", 2.0));
         productos.add(new Producto(33L, "Sardinas", 1.7));
