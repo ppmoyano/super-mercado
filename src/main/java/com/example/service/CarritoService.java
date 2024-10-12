@@ -2,9 +2,7 @@ package com.example.service;
 
 import com.example.model.Producto;
 import com.example.model.Oferta;
-import com.example.repository.OfertaRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
