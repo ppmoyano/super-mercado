@@ -11,8 +11,8 @@ public class OfertaRepository {
     private List<Oferta> ofertas = new ArrayList<>();
 
     public OfertaRepository() {
-        ofertas.add(new Oferta(1L, "Oferta 1", 10.0, 1L));
-        ofertas.add(new Oferta(2L, "Oferta 2", 20.0, 2L));
+        ofertas.add(new Oferta(1L, "Oferta 1", 50.0, 30L)); //salsa quedaria a 1$
+        ofertas.add(new Oferta(2L, "Oferta 2", 20.0, 46L)); //desodorante quedaria a 2,4$
     }
 
     public List<Oferta> findAll() {
