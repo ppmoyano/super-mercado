@@ -38,11 +38,9 @@ public class CarritoService {
 
     private double aplicarOfertasSiCorresponde(Producto producto) {
         ofertas = ofertaService.obtenerTodasLasOfertas();
-        for (Oferta oferta : ofertas) {
-            if (oferta.getProductoId() == producto.getId()) {
-                return producto.getPrecio() * (1 - oferta.getDescuento() / 100);
-            }
-        }
+        /*
+        Falta implementar ofertas
+        */
         return producto.getPrecio(); // No hay descuento, devuelve el precio original.
     }
 }
