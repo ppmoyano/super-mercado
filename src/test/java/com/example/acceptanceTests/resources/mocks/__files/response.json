@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "descripcion": "Ofertas mes de diciembre",
+    "descuento": 50.0,
+    "productoId": 30
+  },
+  {
+    "id": 2,
+    "descripcion": "Ofertas mes de diciembre",
+    "descuento": 50.0,
+    "productoId": 30
+  }
+]
