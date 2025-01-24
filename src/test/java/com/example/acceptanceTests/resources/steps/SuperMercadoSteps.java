@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.Map;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class SuperMercadoSteps {
 
@@ -45,17 +46,7 @@ public class SuperMercadoSteps {
 
     @Then("el total es {string}")
     public void verificarTotal(String totalEsperado) {
-        assertEquals(Double.parseDouble(totalEsperado), totalCalculado);
+        assertTrue(Double.parseDouble(totalEsperado) == totalCalculado);
     }
 
-//    Carrito carrito = new Carrito();
-//
-//    @Given("un cliente agrega los siguientes productos a la canasta")
-//    public void AgregarProductos(DataTable dataTable) {
-//        List<Map<String, String>> productos = dataTable.asMaps();
-//        productos.forEach(p -> {
-//            System.out.println(p);
-//            carrito.getProductos().add(new Producto(Long.parseLong(p.get("id")), p.get("nombre"), Long.parseLong(p.get("precio"))));
-//        });
-//    }
 }

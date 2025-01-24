@@ -13,6 +13,9 @@ public class Oferta {
         this.productoId = productoId;
     }
 
+    public Oferta() {
+    }
+
     public Long getId() {
         return id;
     }

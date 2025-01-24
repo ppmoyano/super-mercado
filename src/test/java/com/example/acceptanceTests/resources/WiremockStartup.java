@@ -20,6 +20,17 @@ public class WiremockStartup {
         WireMock.configureFor(PORT);
         WireMock.stubFor(get(urlEqualTo("/api/ofertas"))
                 .willReturn(aResponse().withBodyFile("response.json")
+                        .withHeader("Content-Type", "application/json") // Tipo de contenido correcto
+                        .withStatus(HttpStatus.OK.value()))
+        );
+        WireMock.stubFor(get(urlEqualTo("/api/productos/1"))
+                .willReturn(aResponse().withBodyFile("responseProductAzucar.json")
+                        .withHeader("Content-Type", "application/json") // Tipo de contenido correcto
+                        .withStatus(HttpStatus.OK.value()))
+        );
+        WireMock.stubFor(get(urlEqualTo("/api/productos/2"))
+                .willReturn(aResponse().withBodyFile("responseProductLeche.json")
+                        .withHeader("Content-Type", "application/json") // Tipo de contenido correcto
                         .withStatus(HttpStatus.OK.value()))
         );
     }

@@ -6,4 +6,4 @@ Feature: Aplicar ofertas
       | 1  | azucar  | 12     |
       | 2  | leche   | 15     |
     When calcula el precio total
-    Then el total es "21"
+    Then el total es "21.0"
